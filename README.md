@@ -31,6 +31,10 @@ to get done:
 - [ ] Support modding
 - [ ] Add examples/basic maps and sprites for simple setup
 
+You can look at the planned architecture of the game in the [docs][docs]
+folder of this repo.
+
 
 [rust]: https://www.rust-lang.org/
 [ss13]: https://spacestation13.com/
+[docs]: ./docs/
