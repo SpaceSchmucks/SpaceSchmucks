@@ -15,3 +15,4 @@ structopt = "0.3"
 log = "0.4"
 simple_logger = "1.11.0"
 wasmer-runtime = "0.17.1"
+uuid = { version = "0.8", features = ["v4", "serde"] }

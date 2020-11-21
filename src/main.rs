@@ -1,5 +1,9 @@
 use bevy::prelude::*;
 
+pub mod player;
+pub mod texture;
+pub mod tile;
+
 struct Person;
 
 struct Name(String);

@@ -3458,6 +3458,7 @@ dependencies = [
  "simple_logger",
  "structopt",
  "thiserror",
+ "uuid",
  "wasmer-runtime",
 ]
 
