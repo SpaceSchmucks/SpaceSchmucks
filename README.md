@@ -5,6 +5,7 @@ written in [Rust][rust].
 
 _Note: the name of this project is subject to change._
 
+
 ## Goals
 
 This project aims to make Space Station 13:
@@ -19,6 +20,7 @@ This project aims to make Space Station 13:
   - Web
 - Easy to mod with great versatility
 
+
 ## Roadmap
 
 This project is in an alpha state, so a lot of work needs to get done
@@ -28,3 +30,7 @@ to get done:
 - [ ] Implement networking
 - [ ] Support modding
 - [ ] Add examples/basic maps and sprites for simple setup
+
+
+[rust]: https://www.rust-lang.org/
+[ss13]: https://spacestation13.com/
