@@ -1,7 +1,9 @@
 use bevy::prelude::*;
+use rhai::Engine;
 
+pub mod engine;
+pub mod level;
 pub mod player;
-pub mod texture;
 pub mod tile;
 
 struct Person;
@@ -25,6 +27,7 @@ fn hello_world() {
 
 fn main() {
     App::build()
+        .add_resource(Engine::new())
         .add_startup_system(add_people.system())
         .add_system(hello_world.system())
         .add_system(greet_people.system())

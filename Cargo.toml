@@ -13,6 +13,9 @@ bevy = "0.3"
 serde = { version = "1.0", features = ["derive"] }
 structopt = "0.3"
 log = "0.4"
-simple_logger = "1.11.0"
-wasmer-runtime = "0.17.1"
+simple_logger = "1.11"
 uuid = { version = "0.8", features = ["v4", "serde"] }
+rhai = "0.19"
+pgp = "0.7"
+smallvec = "1.0"
+zip = "0.5"
